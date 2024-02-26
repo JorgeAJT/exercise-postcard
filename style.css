@@ -1,0 +1,68 @@
+body {
+	background: black;
+	font-family: "Salsa";
+}
+/*
+    * {
+    border: 1px dashed red;
+    min-height: 10px;
+    }
+    */
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex; /*cambiar vertical (por defecto) por horizontal*/
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 400px;
+	margin: auto;
+	margin-left: 7px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 4px;
+	margin-left: 7px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font-size: medium;
+	font-family: "Salsa";
+	padding: 2px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: lightgrey;
+	padding: 5px;
+	font-family: "Salsa";
+	font-size: 15px;
+}
+
+button:active {
+	background-color: darkgrey;
+}
